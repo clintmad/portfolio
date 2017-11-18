@@ -1,0 +1,8 @@
+<div *ngIf="project$ | async as project">
+    <h2>{{ project.name }}</h2>
+    
+    <img src="{{ project.image}}">
+    <p>{{ project.about }}</p>
+    <a href="{{ project.url }}" target="_blank">View Project</a>
+    <button (click)="gotoHome(project)">Back</button>
+</div>

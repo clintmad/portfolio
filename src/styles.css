@@ -1,1 +1,125 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+  }
+
+.flag {
+    height: 100%;
+    background-image: url("assets/images/patriotic-flag.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Sections*/
+.sec-heading {    
+    text-align: center;
+    padding-top: 200px;
+    height: 100%;
+    width:100%;
+    background-size: cover;
+}
+.sec-about {
+    padding: 40px 40px 100px 40px;
+    background-image: url("/assets/images/scorpion.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.sec-skills{
+    padding: 40px 40px 100px 40px;
+    background-image: url("/assets/images/patriotic-flag.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-projects{
+    padding: 20px 20px 100px 20px;
+    background-image: url("assets/images/codebackground.jpg");
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sec-contact{
+    margin-top: -5px;
+    padding: 40px;
+    background-image: url("/assets/images/patriotic-flag.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+/*Font*/
+.about-p{
+    font-family:'Lobster Two', cursive;
+    color: white;
+    font-size: 30px;
+}
+.lobster{
+    font-family:'Lobster', cursive;
+    font-size: 65px;
+    color:white;
+}
+.lobster2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+    color:white;
+}
+.lobster-alt{
+    font-family:'Lobster', cursive;
+    font-size: 35px;
+    color:white;
+}
+.lobster3{
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+}
+.stroke{   
+    text-shadow:
+         2px 2px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+/*Flexbox*/
+.flex-contact{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+/*Cards*/
+.card-contact{
+    background-color:white;
+    padding:15px;
+    border-radius:4px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px black;
+    max-width: 100px;
+}
+
+/*Icons*/
+.phone {
+    color: white;
+    text-shadow:
+    2px 2px 0 #00FF00,
+   -1px -1px 0 #00FF00,  
+   1px -1px 0 #00FF00,
+   -1px 1px 0 #00FF00,
+   1px 1px 0 #00FF00;
+}
+.mail {
+    color: #ffff00;
+}
+.github {
+    color: black;
+}
+.linkedin {
+    color: #0077B5;
+}
+
+@media only screen and (max-width: 500px) {
+    .about-p{
+        font-size: 20px;
+    }
+ }

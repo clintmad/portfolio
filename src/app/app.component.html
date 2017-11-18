@@ -1,3 +1,65 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container-fluid flag ">
+    <section id="heading" class="row sec-heading stroke">
+        <h1 class="lobster ">Clint Madariaga-Zittel</h1>
+        <h3 class="lobster-alt ">Full Stack Developer</h3>
+    </section>
+
+    <section id="about" class="row sec-about stroke">
+        <h1 class="lobster text-center ">About</h1>
+        <div class="col-sm-12 text-right veteran">
+            <h3 class="lobster-alt">Veteran</h3>
+            <p class="about-p">I'm an Army veteran of 3 years with an active Secret Security clearance. I was stationed at JBLM in Washington
+                as a 19K (Armor Crewman), or tanker, where I was the gunner of the MGS (Mobile Gun System), having fun shooting
+                big guns. After being Honorably discharged I decided to pursue a career in Software Development.</p>
+        </div>
+        <div class="col-sm-12 text-center">
+            <h3 class="lobster-alt">Experience</h3>
+            <p class="about-p">Graduate of Boise Code Works, where I learned the basics of programming to include: JavaScript, HTML, and CSS.
+                Briefly educated in NodeJS and C#. I'm currently enrolled at Bellevue University, in pursuit of my Bachelor's
+                of Science in Software Development.
+            </p>
+        </div>
+        <div class="col-sm-12 degrees">
+            <h3 class="lobster-alt">Degrees</h3>
+            <ul class="about-p">
+                <li>Bachelors of Science in Software Development - Bellevue University (in pursuit)</li>
+                <li>Full Stack Developers Certificate - Boise Code Works</li>
+                <li>Associates of Arts in Liberal Arts - College of Western Idaho</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="row sec-skills text-center">
+        <router-outlet name="skillsList"></router-outlet>
+    </section>
+
+    <section id="projects" class="row sec-projects text-center stroke">
+        <router-outlet name="project"></router-outlet>
+    </section>
+
+    <section id="contact" class="row sec-contact text-center ">
+        <h1 class="lobster stroke">Contact Me</h1>
+        <div class="flex-contact">
+            <div class="card-contact">
+                <a href="tel:+12085778436">
+                    <i class="fa fa-phone fa-3x phone" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card-contact">
+                <a href="mailto:clint.madariaga@outlook.com">
+                    <i class="fa fa-envelope fa-3x mail" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card-contact">
+                <a href="https://github.com/clintmad" target="_blank">
+                    <i class="fa fa-github fa-3x github" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card-contact">
+                <a href="https://www.linkedin.com/in/clint-madariaga-zittel" target="_blank">
+                    <i class="fa fa-linkedin fa-3x linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</div>

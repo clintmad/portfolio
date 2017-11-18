@@ -1,0 +1,43 @@
+/*Flexbox*/
+.flex-projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex:1;
+}
+
+/*Cards*/
+.card-projects{
+    background-color:rgba(225, 225, 225, 0.8);
+    padding:20px;
+    border-radius:4px;
+    margin: 15px;
+    box-shadow: 1px 1px 3px black;
+    max-width: 600px;
+    height: 600px;
+}
+.card-projects:hover{
+    background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 33, 86, .8));
+    color: white;
+}
+
+/*Button*/
+.projects-button{
+    font-family:'Lobster', cursive;
+    background-color:rgba(225, 225, 225, 0.3);
+    max-width: 200px;
+    border: 1px solid white;
+    color:white;
+    padding: 4px;
+}
+
+@media only screen and (max-width: 500px) {
+    .card-projects{
+        background-color:rgba(225, 225, 225, 0.8);
+        padding: 10px 20px -20px 20px;;
+        border-radius:4px;
+        margin: 15px;
+        box-shadow: 1px 1px 3px black;
+        max-height: 525px;
+    }
+ }

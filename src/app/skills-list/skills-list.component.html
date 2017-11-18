@@ -1,0 +1,8 @@
+<h1 class="lobster stroke">Skills</h1>
+<div class=" text-center flex-skills lobster3">
+  <div *ngFor="let skill of skills$ | async">
+    <div class="card flex-card">
+      <img class="center-block skill-img" src="{{ skill.image }}" alt="">
+    </div>
+  </div>
+</div>
