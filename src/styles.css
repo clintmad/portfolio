@@ -18,14 +18,14 @@ html, body {
 }
 .sec-about {
     padding: 40px 40px 100px 40px;
-    background-image: url("/assets/images/scorpion.jpg");
+    background-image: url("assets/images/scorpion.jpg");
     background-attachment:fixed;
     background-size: cover;
     background-repeat: no-repeat;    
 }
 .sec-skills{
     padding: 40px 40px 100px 40px;
-    background-image: url("/assets/images/patriotic-flag.jpg");
+    background-image: url("assets/images/patriotic-flag.jpg");
     background-attachment:fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ html, body {
 .sec-contact{
     margin-top: -5px;
     padding: 40px;
-    background-image: url("/assets/images/patriotic-flag.jpg");
+    background-image: url("assets/images/patriotic-flag.jpg");
     background-attachment:fixed;
     background-size: cover;
 }
